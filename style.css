@@ -42,7 +42,7 @@ header {
 /* ── KPI CARDS ── */
 .kpi-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 20px;
   padding: 40px 40px 20px 40px;
 }
@@ -154,3 +154,17 @@ tr:hover td {
 
 .amount-debit  { color: #e87070; }
 .amount-credit { color: #70c992; }
+
+.card.danger {
+  border-color: #e87070;
+  background: #1a1014;
+}
+
+.danger-value {
+  color: #e87070;
+}
+
+.danger-sub {
+  color: #e87070;
+  opacity: 0.85;
+}
